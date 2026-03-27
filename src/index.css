@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@custom-variant dark (&:is(.dark *));
+
+/* Base Layout Config */
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
